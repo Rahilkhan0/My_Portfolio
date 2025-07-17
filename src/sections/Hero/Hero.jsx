@@ -1,5 +1,5 @@
 import './Hero.css';
-
+import banner from '../../assets/images/image.png';
 const Hero = () => {
   return (
     <section id="home" className="hero">
@@ -26,7 +26,7 @@ const Hero = () => {
 </div>
 
         <div className="hero-image">
-          <img src="src/assets/images/image.png" alt="Developer illustration" />
+          <img src={banner} alt="Developer illustration" />
         </div>
       </div>
     </section>

@@ -64,7 +64,8 @@ import { ProjectCard } from '../../components/ProjectCard/ProjectCard';
 
 // OR for default export version
 // import ProjectCard from '../../components/ProjectCard/ProjectCard';
- 
+import portfolioImage from '../../assets/images/portfolio.jpeg';
+import recoImage from '../../assets/images/Recommendationsystem.png';
 
 const Projects = () => {
   const projects = [
@@ -72,7 +73,7 @@ const Projects = () => {
       title: 'Portfolio Website',
       description: 'A professional portfolio built with React and Vite showcasing my projects and skills.',
       tags: ['React', 'Vite', 'CSS'],
-      image: 'src/assets/images/portfolio.jpeg',
+      image: portfolioImage,
       links: {
         demo: 'https://yourportfolio.com',
         code: 'https://github.com/yourusername/portfolio'
@@ -82,7 +83,7 @@ const Projects = () => {
       title: 'Ecommerce Recommendation System',
       description: 'An Ecomerce Application with inbuilt recommendation system.',
       tags: ['React', 'Flask', 'MAchine Learning'],
-      image: 'src/assets/images/Recommendationsystem.png',
+      image: recoImage ,
       links: {
         demo: 'https://github.com/Rahilkhan0/Ecommerce-Product-Recommendation-System/tree/master',
         code: 'https://github.com/Rahilkhan0/Ecommerce-Product-Recommendation-System/tree/master'

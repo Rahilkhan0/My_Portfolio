@@ -1,5 +1,5 @@
 import './About.css';
-
+import myimg from '../../assets/images/IMG_1282.jpg';
 const About = () => {
   return (
     <section id="about" className="about">
@@ -16,7 +16,7 @@ const About = () => {
             
           </div>
           <div className="about-image">
-            <img src="src/assets/images/IMG_1282.jpg" alt="Rahil Khan" />
+            <img src={myimg} alt="Rahil Khan" />
           </div>
         </div>
       </div>
