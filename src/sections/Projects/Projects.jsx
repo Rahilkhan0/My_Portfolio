@@ -66,6 +66,7 @@ import { ProjectCard } from '../../components/ProjectCard/ProjectCard';
 // import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import portfolioImage from '../../assets/images/portfolio.jpeg';
 import recoImage from '../../assets/images/Recommendationsystem.png';
+import ratingAppImage from '../../assets/images/User.png';
 
 const Projects = () => {
   const projects = [
@@ -89,9 +90,19 @@ const Projects = () => {
         code: 'https://github.com/Rahilkhan0/Ecommerce-Product-Recommendation-System/tree/master'
       }
     },
+    {
+      title: 'Store Rating App',
+      description: ' An rating application for stores with a user-friendly interface.',
+      tags: ['Node.js', 'Express', 'MySql' ],
+      image:  ratingAppImage,
+      links: {
+        demo: 'https://github.com/Rahilkhan0/Store-Rating-Application-',
+        code: 'https://github.com/Rahilkhan0/Store-Rating-Application-'
+      }
+    },
     
 
-    // Add more projects as needed
+ 
   ];
 
   return (
