@@ -67,19 +67,11 @@ import { ProjectCard } from '../../components/ProjectCard/ProjectCard';
 import portfolioImage from '../../assets/images/portfolio.jpeg';
 import recoImage from '../../assets/images/Recommendationsystem.png';
 import ratingAppImage from '../../assets/images/User.png';
+import taskImage from '../../assets/images/taskmanager.png';
 
 const Projects = () => {
   const projects = [
-    {
-      title: 'Portfolio Website',
-      description: 'A professional portfolio built with React and Vite showcasing my projects and skills.',
-      tags: ['React', 'Vite', 'CSS'],
-      image: portfolioImage,
-      links: {
-        demo: 'https://yourportfolio.com',
-        code: 'https://github.com/yourusername/portfolio'
-      }
-    },
+    
     {
       title: 'Ecommerce Recommendation System',
       description: 'An Ecomerce Application with inbuilt recommendation system.',
@@ -98,6 +90,26 @@ const Projects = () => {
       links: {
         demo: 'https://github.com/Rahilkhan0/Store-Rating-Application-',
         code: 'https://github.com/Rahilkhan0/Store-Rating-Application-'
+      }
+    },
+    {
+      title: 'Portfolio Website',
+      description: 'A professional portfolio built with React and Vite showcasing my projects and skills.',
+      tags: ['React', 'Vite', 'CSS'],
+      image: portfolioImage,
+      links: {
+        demo: 'https://yourportfolio.com',
+        code: 'https://github.com/yourusername/portfolio'
+      }
+    },
+    {
+      title: 'Task Management App',
+      description: 'A productivity application for organizing daily tasks.',
+      tags: ['React', 'Node.js', 'MongoDB'],
+      image: taskImage,
+      links: {
+        demo: 'https://github.com/Rahilkhan0/Task-Manager',
+        code: 'https://github.com/Rahilkhan0/Task-Manager'
       }
     },
     
